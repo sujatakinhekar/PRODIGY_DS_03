@@ -8,11 +8,11 @@ KEY TAKEAWAYS AND INSIGHTS:
 
 The process of building and evaluating a Decision Tree Classifier involves several key steps. Let's summarize:
 
-Data Preparation: Split your dataset into features(X) and labels(y). Ensure your data is clean and suitable for training a classifier.
+1)Data Preparation: Split your dataset into features(X) and labels(y). Ensure your data is clean and suitable for training a classifier.
 Model Training: Create a Decision Tree Classifier using scikit-learn's 'DecisionTreeClassifier'. Train the model on your traning dataset using the 'fit' model.
-Hyperparameter Tuning: Explore different hyperparameter values using techniques like grid search('GridSearchCV') to find the optimal set.Common hyperparameters include 'max_depth', 'min_samples_split', 'min_samples_leaf', and 'criterion'.
-Evaluation: Assess model's performance using metrices such as accuracy, precision, recall, and the confusion matrix. Use accuracy_score for an overall measure of correct predictions.
-Cross-Validation: Use cross-validation('cross_val_score') to get a more robust estimate of your model's performance across different subsets of your data.
-Visualization: Visualize the Decision Tree structure using 'plot_tree' for an intuitive understanding of how the model makes decisions.
-Insights and Interpretations: Analyze the confusion matrix to understand where the model excels and where it struggles. Consider feature importance, which can be obtained from the feature_importances_attribute of the trained model.
+2)Hyperparameter Tuning: Explore different hyperparameter values using techniques like grid search('GridSearchCV') to find the optimal set.Common hyperparameters include 'max_depth', 'min_samples_split', 'min_samples_leaf', and 'criterion'.
+3)Evaluation: Assess model's performance using metrices such as accuracy, precision, recall, and the confusion matrix. Use accuracy_score for an overall measure of correct predictions.
+4)Cross-Validation: Use cross-validation('cross_val_score') to get a more robust estimate of your model's performance across different subsets of your data.
+5)Visualization: Visualize the Decision Tree structure using 'plot_tree' for an intuitive understanding of how the model makes decisions.
+6)Insights and Interpretations: Analyze the confusion matrix to understand where the model excels and where it struggles. Consider feature importance, which can be obtained from the feature_importances_attribute of the trained model.
 
